@@ -1,0 +1,853 @@
+{
+  "seminar": {
+    "title": "Туринский семинар 2026",
+    "title_it": "Seminario di Torino 2026",
+    "subtitle": "Философия, Архитектура и Время",
+    "subtitle_it": "Filosofia, Architettura e Tempo",
+    "lecturer": "Михаил Минаков",
+    "lecturer_title": "Профессор философии, исследователь модерна и политической теории",
+    "lecturer_it": "Prof. Mikhail Minakov",
+    "dates": "11–13 сентября 2026",
+    "dates_it": "11–13 Settembre 2026",
+    "location": "Турин, Италия",
+    "location_it": "Torino, Italia",
+    "coordinates": "45°04′14″ N, 07°41′10″ E",
+    "curatorial_note": "Визуальный архив охватывает вечер пятницы (NH Santo Stefano) и субботу (Палаццо Кариньяно, Музей Рисорджименто, Музей Чезаре Ломброзо и городские маршруты). Воскресные лекции представлены в виде философского эпилога и тезисов.",
+    "curatorial_note_it": "L'archivio fotografico documenta venerdì sera (NH Santo Stefano) e sabato (Palazzo Carignano, Museo Lombroso, itinerari urbani). Le lezioni domenicali sono presentate come epilogo filosofico e tesi teoriche."
+  },
+  "hero": {
+    "bg_image": "images/hero/hero-bg.jpg",
+    "tagline_ru": "Симпозиум по феноменологии времени, савойскому рационализму и этике замедления",
+    "tagline_it": "Simposio sulla fenomenologia del tempo, razionalismo sabaudo ed etica della lentezza"
+  },
+  "speaker": {
+    "name": "Михаил Минаков",
+    "name_it": "Prof. Mikhail Minakov",
+    "affiliation": "Otium Academy & Kennan Institute",
+    "role": "Профессор философии, исследователь модерна и теории политического времени",
+    "role_it": "Filosofo, teorico della modernità e del tempo politico",
+    "image": "images/speaker/minakov-bw.jpg",
+    "bio": "Ведущий исследователь европейского модерна, политической темпоральности и постсоветской трансформации. Преподавал в ведущих европейских и североамериканских университетах, основатель философских программ Otium Academy. В рамках Туринского семинара разработал трехмерную модель политического пространства, объединяющую институциональные оси, идеологические нарративы и хронополитический контроль.",
+    "bio_it": "Uno dei maggiori studiosi europei della modernità, del tempo politico e della fenomenologia del potere. Fondatore dei programmi di Otium Academy.",
+    "quote": "«Высшая форма политического суверенитета сегодня — это бережность к времени собственной жизни: способность выйти из навязанного ритма институтов и вернуть себе глубину созерцания.»",
+    "quote_it": "«La più alta forma di sovranità politica oggi risiede nella cura del tempo della propria vita: sottrarsi al ritmo imposto dalle istituzioni e riappropriarsi della profondità contemplativa.»"
+  },
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "number": "01",
+      "title": "Лаборатория мысли",
+      "title_it": "Il Laboratorio del Pensiero",
+      "venue": "NH Santo Stefano — Вводная лекция",
+      "venue_it": "NH Santo Stefano — Lezione Introduttiva",
+      "date": "Пятница, 11 сентября 2026",
+      "date_it": "Venerdì, 11 Settembre 2026",
+      "timeline": "18:30 – 21:30",
+      "has_photography": true,
+      "folder": "images/seminar/",
+      "prefix": "seminar-",
+      "count": 15,
+      "themes": [
+        "Трехмерная система политики",
+        "Время как ресурс власти",
+        "Феноменология модерна"
+      ],
+      "themes_it": [
+        "Sistema tridimensionale della politica",
+        "Il tempo come risorsa del potere",
+        "Fenomenologia della modernità"
+      ],
+      "lead_quote": "Власть всегда структурирует не только пространство, но прежде всего темпоральность: тот, кто владеет чужим временем, правит миром.",
+      "quote_author": "Михаил Минаков",
+      "context_text": "В первый вечер в камерном пространстве NH Santo Stefano семинар открылся концептуализацией трехмерного политического пространства: взаимного сопряжения институциональных структур, идеологических нарративов и хронополитики. Время перестает быть нейтральной шкалой — оно обнажается как самый дефицитный и отчуждаемый ресурс человеческой жизни, за контроль над которым разворачиваются главные битвы современности.",
+      "gallery_config": {
+        "folder": "images/seminar/",
+        "prefix": "seminar-",
+        "count": 15,
+        "extension": ".jpg"
+      },
+      "images": [
+        {
+          "id": "seminar-01",
+          "number": 1,
+          "src": "images/seminar/seminar-01.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-02",
+          "number": 2,
+          "src": "images/seminar/seminar-02.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-03",
+          "number": 3,
+          "src": "images/seminar/seminar-03.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-04",
+          "number": 4,
+          "src": "images/seminar/seminar-04.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-05",
+          "number": 5,
+          "src": "images/seminar/seminar-05.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-06",
+          "number": 6,
+          "src": "images/seminar/seminar-06.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-07",
+          "number": 7,
+          "src": "images/seminar/seminar-07.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-08",
+          "number": 8,
+          "src": "images/seminar/seminar-08.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-09",
+          "number": 9,
+          "src": "images/seminar/seminar-09.jpg",
+          "aspect": "aspect-tall"
+        },
+        {
+          "id": "seminar-10",
+          "number": 10,
+          "src": "images/seminar/seminar-10.jpg",
+          "aspect": "aspect-tall"
+        },
+        {
+          "id": "seminar-11",
+          "number": 11,
+          "src": "images/seminar/seminar-11.jpg",
+          "aspect": "aspect-tall"
+        },
+        {
+          "id": "seminar-12",
+          "number": 12,
+          "src": "images/seminar/seminar-12.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-13",
+          "number": 13,
+          "src": "images/seminar/seminar-13.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-14",
+          "number": 14,
+          "src": "images/seminar/seminar-14.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "seminar-15",
+          "number": 15,
+          "src": "images/seminar/seminar-15.jpg",
+          "aspect": "aspect-wide"
+        }
+      ],
+      "featured_images": [
+        "images/seminar/seminar-01.jpg",
+        "images/seminar/seminar-02.jpg"
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "number": "02",
+      "title": "Трон и Миф",
+      "title_it": "Il Trono e il Mito",
+      "venue": "Palazzo Carignano & Museo Nazionale del Risorgimento",
+      "venue_it": "Palazzo Carignano & Museo Nazionale del Risorgimento",
+      "date": "Суббота, 12 сентября 2026 (Утро)",
+      "date_it": "Sabato, 12 Settembre 2026 (Mattina)",
+      "timeline": "10:00 – 13:30",
+      "has_photography": true,
+      "folder": "images/risorgimento/",
+      "prefix": "risorgimento-",
+      "count": 39,
+      "themes": [
+        "Савойская династия",
+        "Кавур vs Гарибальди",
+        "Эфемерный парламент 1861 года",
+        "Священный нарратив нации"
+      ],
+      "themes_it": [
+        "La Dinastia Sabauda",
+        "Cavour vs Garibaldi",
+        "Il Parlamento Effimero del 1861",
+        "La narrazione sacra della nazione"
+      ],
+      "lead_quote": "Государство нуждается в мифе о собственном рождении острее, чем в законах: в залах Кариньяно итальянское единство ковалось как драматический компромисс между прагматизмом Кавура и романтической яростью Гарибальди.",
+      "lead_quote_it": "Lo Stato ha bisogno del mito della propria nascita più che delle leggi: nelle aule di Carignano l'unità fu forgiata come compromesso drammatico tra il pragmatismo di Cavour e la furia romantica di Garibaldi.",
+      "quote_author": "Михаил Минаков",
+      "context_text": "Субботнее утро началось в Палаццо Кариньяно — монументальном шедевре барочной кирпичной архитектуры Гварино Гварини. Именно здесь заседал первый Субальпийский парламент и был возведен грандиозный временный зал заседаний 1861 года, чей недолгий век стал символом хрупкости учредительной власти. Лекция развернулась вокруг фундаментального антагонизма: холодный бюрократический прагматизм графа Камилло Кавура против народно-освободительного романтизма Джузеппе Гарибальди. Участники исследовали, как региональная династическая экспансия Савойского дома была перекодирована в общенациональный сакральный миф Рисорджименто.",
+      "context_text_it": "La mattinata di sabato a Palazzo Carignano ha sviscerato l'antagonismo tra il freddo calcolo burocratico di Cavour e il fervore romantico di Garibaldi, mostrando come l'espansione sabauda si trasformò nel mito fondativo nazionale.",
+      "gallery_config": {
+        "folder": "images/risorgimento/",
+        "prefix": "risorgimento-",
+        "count": 39,
+        "extension": ".jpg"
+      },
+      "images": [
+        {
+          "id": "risorgimento-01",
+          "number": 1,
+          "src": "images/risorgimento/risorgimento-01.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-02",
+          "number": 2,
+          "src": "images/risorgimento/risorgimento-02.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-03",
+          "number": 3,
+          "src": "images/risorgimento/risorgimento-03.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-04",
+          "number": 4,
+          "src": "images/risorgimento/risorgimento-04.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-05",
+          "number": 5,
+          "src": "images/risorgimento/risorgimento-05.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-06",
+          "number": 6,
+          "src": "images/risorgimento/risorgimento-06.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-07",
+          "number": 7,
+          "src": "images/risorgimento/risorgimento-07.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-08",
+          "number": 8,
+          "src": "images/risorgimento/risorgimento-08.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-09",
+          "number": 9,
+          "src": "images/risorgimento/risorgimento-09.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-10",
+          "number": 10,
+          "src": "images/risorgimento/risorgimento-10.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-11",
+          "number": 11,
+          "src": "images/risorgimento/risorgimento-11.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-12",
+          "number": 12,
+          "src": "images/risorgimento/risorgimento-12.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-13",
+          "number": 13,
+          "src": "images/risorgimento/risorgimento-13.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-14",
+          "number": 14,
+          "src": "images/risorgimento/risorgimento-14.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-15",
+          "number": 15,
+          "src": "images/risorgimento/risorgimento-15.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-16",
+          "number": 16,
+          "src": "images/risorgimento/risorgimento-16.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-17",
+          "number": 17,
+          "src": "images/risorgimento/risorgimento-17.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-18",
+          "number": 18,
+          "src": "images/risorgimento/risorgimento-18.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-19",
+          "number": 19,
+          "src": "images/risorgimento/risorgimento-19.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-20",
+          "number": 20,
+          "src": "images/risorgimento/risorgimento-20.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-21",
+          "number": 21,
+          "src": "images/risorgimento/risorgimento-21.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-22",
+          "number": 22,
+          "src": "images/risorgimento/risorgimento-22.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-23",
+          "number": 23,
+          "src": "images/risorgimento/risorgimento-23.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-24",
+          "number": 24,
+          "src": "images/risorgimento/risorgimento-24.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-25",
+          "number": 25,
+          "src": "images/risorgimento/risorgimento-25.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-26",
+          "number": 26,
+          "src": "images/risorgimento/risorgimento-26.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-27",
+          "number": 27,
+          "src": "images/risorgimento/risorgimento-27.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-28",
+          "number": 28,
+          "src": "images/risorgimento/risorgimento-28.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-29",
+          "number": 29,
+          "src": "images/risorgimento/risorgimento-29.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-30",
+          "number": 30,
+          "src": "images/risorgimento/risorgimento-30.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-31",
+          "number": 31,
+          "src": "images/risorgimento/risorgimento-31.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-32",
+          "number": 32,
+          "src": "images/risorgimento/risorgimento-32.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-33",
+          "number": 33,
+          "src": "images/risorgimento/risorgimento-33.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-34",
+          "number": 34,
+          "src": "images/risorgimento/risorgimento-34.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-35",
+          "number": 35,
+          "src": "images/risorgimento/risorgimento-35.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-36",
+          "number": 36,
+          "src": "images/risorgimento/risorgimento-36.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-37",
+          "number": 37,
+          "src": "images/risorgimento/risorgimento-37.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-38",
+          "number": 38,
+          "src": "images/risorgimento/risorgimento-38.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "risorgimento-39",
+          "number": 39,
+          "src": "images/risorgimento/risorgimento-39.jpg",
+          "aspect": "aspect-wide"
+        }
+      ],
+      "featured_images": [
+        "images/risorgimento/risorgimento-11.jpg",
+        "images/risorgimento/risorgimento-14.jpg",
+        "images/risorgimento/risorgimento-24.jpg",
+        "images/risorgimento/risorgimento-33.jpg"
+      ]
+    },
+    {
+      "id": "chapter-3",
+      "number": "03",
+      "title": "В когтях науки",
+      "title_it": "Nelle Grinfie della Scienza",
+      "venue": "Museo di Antropologia Criminale «Cesare Lombroso»",
+      "venue_it": "Museo di Antropologia Criminale «Cesare Lombroso»",
+      "date": "Суббота, 12 сентября 2026 (День)",
+      "date_it": "Sabato, 12 Settembre 2026 (Pomeriggio)",
+      "timeline": "15:00 – 17:30",
+      "has_photography": true,
+      "folder": "images/lombroso/",
+      "prefix": "lombroso-",
+      "count": 9,
+      "themes": [
+        "Биополитика и дисциплинарная власть",
+        "Чезаре Ломброзо и позитивистский детерминизм",
+        "От штангенциркуля к цифровому надзору XXI века",
+        "Анатомия стигмы"
+      ],
+      "themes_it": [
+        "Biopolitica e potere disciplinare",
+        "Cesare Lombroso e il determinismo positivista",
+        "Dal calibro alla sorveglianza algoritmica del XXI secolo",
+        "Anatomia dello stigma"
+      ],
+      "lead_quote": "Ломброзо пытался измерить штангенциркулем криминальную душу человека, но создал не криминологию, а анатомический фундамент современного надзора: сегодня алгоритмы распознавания лиц делают ровно то же самое, что краниометр XIX века.",
+      "lead_quote_it": "Lombroso tentò di misurare l'anima criminale con un calibro, ma finì per fondare l'anatomia della sorveglianza moderna: oggi gli algoritmi di riconoscimento facciale replicano esattamente il craniometro ottocentesco.",
+      "quote_author": "Михаил Минаков",
+      "context_text": "Дневная экспедиция в Музей криминальной антропологии Чезаре Ломброзо стала ключевым этическим узлом семинара. Стеклянные витрины с черепами, посмертными масками и причудливым творчеством заключенных послужили отправной точкой для глубокого осмысления биополитики Мишеля Фуко. Позитивистская наука XIX века, убежденная в собственном гуманизме, создала жесткие практики измерения, каталогизации и стигматизации человеческого тела. В дискуссии была прослежена прямая генеалогия: от механических краниометров и измерений ушных раковин — к современным биометрическим базам данных, камерам с искусственным интеллектом и предиктивному цифровому контролю.",
+      "context_text_it": "La visita al Museo Cesare Lombroso ha costituito il nodo etico del percorso. Teche di crani e calchi hanno introdotto la critica foucaultiana della biopolitica: dai calibri ottocenteschi all'odierna sorveglianza biometrica e predittiva.",
+      "gallery_config": {
+        "folder": "images/lombroso/",
+        "prefix": "lombroso-",
+        "count": 9,
+        "extension": ".jpg"
+      },
+      "images": [
+        {
+          "id": "lombroso-01",
+          "number": 1,
+          "src": "images/lombroso/lombroso-01.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "lombroso-02",
+          "number": 2,
+          "src": "images/lombroso/lombroso-02.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "lombroso-03",
+          "number": 3,
+          "src": "images/lombroso/lombroso-03.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "lombroso-04",
+          "number": 4,
+          "src": "images/lombroso/lombroso-04.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "lombroso-05",
+          "number": 5,
+          "src": "images/lombroso/lombroso-05.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "lombroso-06",
+          "number": 6,
+          "src": "images/lombroso/lombroso-06.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "lombroso-07",
+          "number": 7,
+          "src": "images/lombroso/lombroso-07.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "lombroso-08",
+          "number": 8,
+          "src": "images/lombroso/lombroso-08.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "lombroso-09",
+          "number": 9,
+          "src": "images/lombroso/lombroso-09.jpg",
+          "aspect": "aspect-wide"
+        }
+      ],
+      "featured_images": [
+        "images/lombroso/lombroso-03.jpg",
+        "images/lombroso/lombroso-04.jpg",
+        "images/lombroso/lombroso-06.jpg"
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "number": "04",
+      "title": "Геометрия города",
+      "title_it": "La Geometria della Città",
+      "venue": "Туринские аркады, Piazza San Carlo, Via Po, берега реки По",
+      "venue_it": "I Portici di Torino, Piazza San Carlo, Via Po, Murazzi del Po",
+      "date": "Суббота, 12 сентября 2026 (Вечер)",
+      "date_it": "Sabato, 12 Settembre 2026 (Sera)",
+      "timeline": "18:00 – 21:30",
+      "has_photography": true,
+      "folder": "images/city/",
+      "prefix": "city-",
+      "count": 31,
+      "themes": [
+        "Туринские аркады (18 км)",
+        "Регулярный город Савойев",
+        "Метафизика теней (Ницше и де Кирико)",
+        "Бережность к времени жизни"
+      ],
+      "themes_it": [
+        "I portici monumentali di Torino",
+        "La città come disegno dello Stato regolare",
+        "Metafisica del vuoto (De Chirico e Nietzsche)",
+        "Credo conclusivo: La cura del tempo vitale"
+      ],
+      "lead_quote": "Туринские 18 километров аркад — это не просто защита короля от дождя. Это материализованный трактат о дисциплине шага. Но финальный урок философии — вернуть себе право не спешить: высшая форма политического суверенитета сегодня — это бережность к времени собственной жизни.",
+      "lead_quote_it": "I 18 chilometri di portici torinesi non sono solo un riparo dalla pioggia: sono un trattato in pietra sulla disciplina del passo. La lezione finale della filosofia è riappropriarsi del diritto alla lentezza: la più alta forma di sovranità politica contemporanea risiede nella cura del tempo della propria vita.",
+      "quote_author": "Михаил Минаков",
+      "context_text": "Субботний маршрут завершился философским дрейфом под бесконечными туринскими портиками. Турин проектировался герцогскими инженерами как шахматная доска абсолютистского государства: регулярная сетка улиц, единообразие карнизов и перспективные оси приучали подданных к государственному порядку. Именно в этих декорациях Ницше пережил свой трагический экстаз, а Джорджо де Кирико открыл меланхолию теней. Пройдя сквозь идеальную симметрию Пьяцца Сан-Карло к гранитным аркам реки По, участники сформулировали главное кредо семинара: городская структура подчиняет тело, но внутренний суверенитет мысли рождается в способности замедлиться и охранять время своей жизни от всепоглощающей спешки институтов.",
+      "context_text_it": "La giornata si è conclusa con una deriva filosofica sotto i portici monumentali. Raggiungendo i Murazzi del Po, il gruppo ha enucleato il principio etico: l'autonomia dello spirito germoglia nella cura intransigente del proprio tempo vitale.",
+      "gallery_config": {
+        "folder": "images/city/",
+        "prefix": "city-",
+        "count": 31,
+        "extension": ".jpg"
+      },
+      "images": [
+        {
+          "id": "city-01",
+          "number": 1,
+          "src": "images/city/city-01.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-02",
+          "number": 2,
+          "src": "images/city/city-02.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-03",
+          "number": 3,
+          "src": "images/city/city-03.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-04",
+          "number": 4,
+          "src": "images/city/city-04.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-05",
+          "number": 5,
+          "src": "images/city/city-05.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-06",
+          "number": 6,
+          "src": "images/city/city-06.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-07",
+          "number": 7,
+          "src": "images/city/city-07.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-08",
+          "number": 8,
+          "src": "images/city/city-08.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-09",
+          "number": 9,
+          "src": "images/city/city-09.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-10",
+          "number": 10,
+          "src": "images/city/city-10.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-11",
+          "number": 11,
+          "src": "images/city/city-11.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-12",
+          "number": 12,
+          "src": "images/city/city-12.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-13",
+          "number": 13,
+          "src": "images/city/city-13.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-14",
+          "number": 14,
+          "src": "images/city/city-14.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-15",
+          "number": 15,
+          "src": "images/city/city-15.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-16",
+          "number": 16,
+          "src": "images/city/city-16.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-17",
+          "number": 17,
+          "src": "images/city/city-17.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-18",
+          "number": 18,
+          "src": "images/city/city-18.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-19",
+          "number": 19,
+          "src": "images/city/city-19.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-20",
+          "number": 20,
+          "src": "images/city/city-20.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-21",
+          "number": 21,
+          "src": "images/city/city-21.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-22",
+          "number": 22,
+          "src": "images/city/city-22.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-23",
+          "number": 23,
+          "src": "images/city/city-23.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-24",
+          "number": 24,
+          "src": "images/city/city-24.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-25",
+          "number": 25,
+          "src": "images/city/city-25.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-26",
+          "number": 26,
+          "src": "images/city/city-26.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-27",
+          "number": 27,
+          "src": "images/city/city-27.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-28",
+          "number": 28,
+          "src": "images/city/city-28.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-29",
+          "number": 29,
+          "src": "images/city/city-29.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-30",
+          "number": 30,
+          "src": "images/city/city-30.jpg",
+          "aspect": "aspect-wide"
+        },
+        {
+          "id": "city-31",
+          "number": 31,
+          "src": "images/city/city-31.jpg",
+          "aspect": "aspect-wide"
+        }
+      ],
+      "featured_images": [
+        "images/city/city-05.jpg",
+        "images/city/city-12.jpg",
+        "images/city/city-16.jpg",
+        "images/city/city-17.jpg",
+        "images/city/city-22.jpg",
+        "images/city/city-29.jpg"
+      ]
+    }
+  ],
+  "sunday_epilogue": {
+    "title": "Воскресный эпилог: Синтез и Бережность к времени жизни",
+    "title_it": "Epilogo Domenicale: Sintesi e Cura del Tempo della Vita",
+    "venue": "Камерный зал & Монастырский дворик",
+    "venue_it": "Aula Riservata & Chiostro Storico",
+    "date": "Воскресенье, 13 сентября 2026",
+    "date_it": "Domenica, 13 Settembre 2026",
+    "timeline": "10:30 – 14:00",
+    "has_photography": false,
+    "disclaimer": "Воскресные лекции и заключительные дебаты намеренно проходили в режиме академического уединения без фотофиксации. Материалы представлены в виде тезисов и концептуального манифеста.",
+    "disclaimer_it": "Le lezioni conclusive di domenica si sono svolte in regime di raccoglimento accademico senza apparato fotografico. I contenuti sono preservati come tesi e manifesto concettuale.",
+    "lead_quote": "Философия не дает утешения, но она возвращает масштаб: осознать границы политических мифов, распутать сети биополитического надзора и отстоять ценность каждого прожитого часа.",
+    "lead_quote_it": "La filosofia non offre consolazioni, ma restituisce l'autentica misura dell'essere: smascherare i miti politici, eludere le reti della biopolitica e preservare il valore irripetibile di ogni ora vissuta.",
+    "quote_author": "Михаил Минаков",
+    "text": "Заключительный день семинара был полностью посвящен теоретическому синтезу. Оставив позади музейные экспозиции и городскую суету, участники сосредоточились на вопросе: как философское понимание власти и пространства способно трансформировать личную этику в XXI веке? Воскресный диалог развернулся вокруг концепта «Бережности к времени жизни» (Cura del tempo vitale) как главного акта этического нонконформизма в эпоху цифровой коммодификации времени.",
+    "text_it": "La giornata conclusiva è stata interamente dedicata alla sintesi teoretica. Il dibattito ha posto al centro il concetto di 'Cura del tempo della vita' come atto fondamentale di non-conformismo e sovranità intellettuale.",
+    "theses": [
+      {
+        "num": "I",
+        "title": "Хронополитический суверенитет",
+        "title_it": "Sovranità Cronopolitica",
+        "desc": "Сопротивление ускорению: институты капитала и государства стремятся колонизировать всё личное время субъекта. Восстановление суверенного темпа — первый шаг политической эмансипации."
+      },
+      {
+        "num": "II",
+        "title": "Демифологизация учредительного нарратива",
+        "title_it": "Smantellamento del Mito Fondativo",
+        "desc": "Критическая дистанция по отношению к любым национальным и государственным мифам (от Савойского дома до современных конструктов). Музейное прошлое учит распознавать механизмы манипуляции."
+      },
+      {
+        "num": "III",
+        "title": "Неприкосновенность тела перед лицом надзора",
+        "title_it": "Inviolabilità del Corpo di Fronte alla Sorveglianza",
+        "desc": "Отказ от позитивистской редукции человека к измеримым показателям. Критическое осмысление биометрических и нейросетевых систем надзора как прямого продолжения криминологии Ломброзо."
+      },
+      {
+        "num": "IV",
+        "title": "Бережность к времени жизни как этический долг",
+        "title_it": "La Cura del Tempo come Dovere Etico",
+        "desc": "Финальный императив: глубокое мышление требует пауз, тишины и неспешного диалога. Архитектура и философия в Турине напомнили, что долговечное создается только в согласии со временем."
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "id": "photo-archive",
+      "platform": "Google Drive",
+      "tag": "Google Drive • Фотоархив высокого разрешения",
+      "title": "Полный фотоархив в высоком качестве",
+      "title_it": "Archivio Fotografico Completo HD",
+      "desc": "Полная серия кадров семинара, музеев и городских пространств Турина на Google Диске.",
+      "desc_it": "Serie fotografica completa del seminario, musei e spazi urbani di Torino su Google Drive.",
+      "url": "https://drive.google.com/drive/folders/1yfmA5Rx9lK0zm7QllfanCQHRsIFDuuhb?usp=sharing"
+    },
+    {
+      "id": "course-slides",
+      "platform": "Google Drive",
+      "tag": "Google Drive • Оригинальная презентация (PDF)",
+      "title": "Материалы и слайды курса (PDF)",
+      "title_it": "Materiali e Slide del Corso (PDF)",
+      "desc": "Оригинальная презентация лекций профессора Михаила Минакова (Otium Academy).",
+      "desc_it": "Presentazione originale delle lezioni del Prof. Mikhail Minakov (Otium Academy).",
+      "url": "https://drive.google.com/file/d/1GfWZsDVVftvDEascd1jSE43dEGyrNP16/view?usp=sharing"
+    }
+  ],
+  "organizer": {
+    "name": "Otium Academy",
+    "logo": "images/logo/otium-academy.png",
+    "tagline": "Интеллектуальные программы и феноменология модерна",
+    "tagline_it": "Programmi intellettuali e fenomenologia della modernità",
+    "description": "Интеллектуальные программы, исследование европейского модерна и феноменология политического времени.",
+    "description_it": "Programmi intellettuali, studio della modernità europea e fenomenologia del tempo politico."
+  }
+}

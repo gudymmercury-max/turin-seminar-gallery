@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Туринский семинар 2026 — Проф. Михаил Минаков: Философия, Архитектура и Время</title>
+  <meta name="description" content="Кураторский цифровой архив и выставка материалов философского семинара профессора Михаила Минакова в Турине (11–13 сентября 2026 г.). Исследование темпоральности, Савойского мифа, биополитики Ломброзо и аркад Турина.">
+  <meta name="theme-color" content="#0c0c0d">
+
+  <!-- Google Fonts: Cinzel, Playfair Display, Cormorant Garamond, Inter, Space Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       Site Header / Breathable Luxury Navigation (Issue 1 & 2)
+       ====================================================================== -->
+  <header class="site-header">
+    <!-- Minimalist Scroll Reading Progress Indicator -->
+    <div class="scroll-progress-line" id="scrollProgress" aria-hidden="true"></div>
+    <div class="container">
+      <div class="header-inner">
+        <!-- Brand Link with Organizer Logo -->
+        <a href="#hero" class="brand-link" aria-label="Туринский семинар 2026 — Otium Academy">
+          <div class="brand-logo-wrap" title="Otium Academy">
+            <img src="images/logo/otium-academy.png" alt="Otium Academy" class="brand-logo" width="34" height="34">
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">Turin Seminar</span>
+            <span class="brand-sub">MMXXVI &bull; MIKHAIL MINAKOV</span>
+          </div>
+        </a>
+
+        <!-- Streamlined Desktop Navigation -->
+        <nav class="desktop-nav" aria-label="Основная навигация">
+          <ul class="nav-menu">
+            <li><a href="#speaker" class="nav-link">Лектор</a></li>
+            <li><a href="#chapter-1" class="nav-link"><span class="nav-num">01</span> Лаборатория</a></li>
+            <li><a href="#chapter-2" class="nav-link"><span class="nav-num">02</span> Трон и Миф</a></li>
+            <li><a href="#chapter-3" class="nav-link"><span class="nav-num">03</span> Наука</a></li>
+            <li><a href="#chapter-4" class="nav-link"><span class="nav-num">04</span> Город</a></li>
+            <li><a href="#epilogue" class="nav-link">Эпилог</a></li>
+            <li><a href="#archives" class="nav-link">Архив</a></li>
+          </ul>
+        </nav>
+
+        <!-- Right Header Actions: Dates Badge & Mobile Hamburger -->
+        <div class="header-actions">
+          <div class="header-status-badge" aria-label="Даты проведения семинара">
+            <span class="status-indicator"></span>
+            <span>11–13 СЕНТЯБРЯ 2026</span>
+          </div>
+
+          <!-- Minimalist Animated Hamburger Toggle (Issue 2) -->
+          <button class="hamburger-btn" id="navToggle" aria-label="Открыть меню навигации" aria-expanded="false">
+            <div class="hamburger-box">
+              <span class="hamburger-line bar-1"></span>
+              <span class="hamburger-line bar-2"></span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       Mobile Fullscreen Overlay Navigation (Issue 2)
+       ====================================================================== -->
+  <div class="mobile-nav-overlay" id="mobileNav" aria-hidden="true">
+    <div>
+      <div class="mobile-nav-curatorial-label">
+        Экспозиционный указатель &bull; Indice dell'Esposizione
+      </div>
+
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+          <a href="#speaker" class="mobile-nav-link">
+            <div class="mobile-link-header">
+              <span class="mobile-nav-num">00</span>
+              <span class="mobile-nav-title">Михаил Минаков</span>
+            </div>
+            <span class="mobile-nav-sub">Куратор и лектор семинара &bull; Otium Academy</span>
+          </a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#chapter-1" class="mobile-nav-link">
+            <div class="mobile-link-header">
+              <span class="mobile-nav-num">01</span>
+              <span class="mobile-nav-title">Лаборатория мысли</span>
+            </div>
+            <span class="mobile-nav-sub">NH Santo Stefano &bull; Пятница, 11 сентября</span>
+          </a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#chapter-2" class="mobile-nav-link">
+            <div class="mobile-link-header">
+              <span class="mobile-nav-num">02</span>
+              <span class="mobile-nav-title">Трон и Миф</span>
+            </div>
+            <span class="mobile-nav-sub">Palazzo Carignano &amp; Risorgimento &bull; Суббота утро</span>
+          </a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#chapter-3" class="mobile-nav-link">
+            <div class="mobile-link-header">
+              <span class="mobile-nav-num">03</span>
+              <span class="mobile-nav-title">В когтях науки</span>
+            </div>
+            <span class="mobile-nav-sub">Museo Cesare Lombroso &bull; Суббота день</span>
+          </a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#chapter-4" class="mobile-nav-link">
+            <div class="mobile-link-header">
+              <span class="mobile-nav-num">04</span>
+              <span class="mobile-nav-title">Геометрия города</span>
+            </div>
+            <span class="mobile-nav-sub">Туринские аркады &bull; Суббота вечер</span>
+          </a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#epilogue" class="mobile-nav-link">
+            <div class="mobile-link-header">
+              <span class="mobile-nav-num">05</span>
+              <span class="mobile-nav-title">Воскресный эпилог</span>
+            </div>
+            <span class="mobile-nav-sub">Бережность к времени жизни &bull; Воскресенье</span>
+          </a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#archives" class="mobile-nav-link">
+            <div class="mobile-link-header">
+              <span class="mobile-nav-num">06</span>
+              <span class="mobile-nav-title">Материалы семинара</span>
+            </div>
+            <span class="mobile-nav-sub">Google Drive: Полный фотоархив и слайды курса (PDF)</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mobile-nav-footer">
+      <div class="mobile-nav-footer-org">
+        <img src="images/logo/otium-academy.png" alt="Otium Academy" class="mobile-nav-logo" width="22" height="22">
+        <span>Otium Academy &bull; 45°04′14″ N &nbsp; 07°41′10″ E</span>
+      </div>
+      <span>Prof. Mikhail Minakov &bull; Философия и Архитектура</span>
+    </div>
+  </div>
+
+  <main>
+    <!-- ====================================================================
+         Hero Section with Darkened Texture/Photo Support (Issue 5)
+         ==================================================================== -->
+    <section id="hero" class="hero-section">
+      <!-- Darkened background photo layer (images/hero/hero-bg.jpg) -->
+      <div class="hero-bg-image" aria-hidden="true"></div>
+      <div class="hero-bg-lines" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <!-- Curatorial Metadata Bar -->
+          <div class="hero-meta-bar">
+            <div class="hero-meta-item">
+              <span class="mono-meta">ТУРИНСКИЙ СЕМИНАР 2026</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="meta-bullet" aria-hidden="true"></span>
+              <span class="mono-meta">11–13 СЕНТЯБРЯ 2026</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="meta-bullet" aria-hidden="true"></span>
+              <span class="mono-meta">TORINO, ITALIA</span>
+            </div>
+          </div>
+
+          <!-- Hero Titles -->
+          <div class="hero-title-group">
+            <h1 class="hero-title">
+              Туринский Семинар
+              <span class="title-accent">2026</span>
+            </h1>
+            <p class="hero-subtitle">
+              Философия, Архитектура и Время
+              <span class="hero-subtitle-it">Filosofia, Architettura e Tempo &bull; Prof. Mikhail Minakov</span>
+            </p>
+          </div>
+
+          <p class="hero-intro-text">
+            Три дня интенсивного философского диалога в пространстве столицы Пьемонта. 
+            Исследование того, как строгая геометрия Савойского государства, барочные своды Гварини, 
+            криминологический штангенциркуль Ломброзо и бесконечные аркады формируют опыт власти, 
+            дисциплину тела и современное восприятие времени.
+          </p>
+
+          <!-- Curatorial photography archive note -->
+          <div class="hero-photo-disclaimer">
+            <div>
+              <strong>Контекст фотоархива:</strong> Визуальная экспозиция охватывает пятницу 
+              (NH Santo Stefano) и субботу (Палаццо Кариньяно, Музей Рисорджименто, Музей Чезаре Ломброзо и городские портики). 
+              Воскресные лекции проходили в режиме академического уединения и представлены исключительно в форме философских тезисов и эпилога.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Footer Bar: Coordinates & Scroll Prompt -->
+      <div class="container">
+        <div class="hero-footer-bar">
+          <div class="hero-coordinates">
+            <span>45°04′14″ N &nbsp; 07°41′10″ E &bull; TORINO</span>
+          </div>
+
+          <a href="#speaker" class="scroll-indicator" aria-label="Перейти к лектору и куратору">
+            <span class="scroll-label">Лектор и Концепция</span>
+            <div class="scroll-line-wrapper">
+              <div class="scroll-line"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Speaker Profile Card (Issue 3: Dual-Column Presentation)
+         ==================================================================== -->
+    <section id="speaker" class="speaker-section">
+      <div class="container">
+        <div class="section-label">
+          <span class="mono-meta">КУРАТОР &amp; ЛЕКТОР &bull; RELATORE</span>
+        </div>
+
+        <article class="speaker-card reveal-on-scroll">
+          <!-- Left Column: Stylish Street Portrait Frame (images/speaker/minakov-bw.jpg) -->
+          <div class="speaker-media-col">
+            <div class="speaker-portrait-frame">
+              <!-- Placeholder Art / Fallback if photo not yet loaded -->
+              <div class="portrait-placeholder" aria-hidden="true">
+                <svg class="portrait-silhouette-svg" viewBox="0 0 100 120" fill="none" stroke-width="0.9">
+                  <circle cx="50" cy="40" r="22" />
+                  <path d="M15,110 C15,75 35,70 50,70 C65,70 85,75 85,110" />
+                  <line x1="50" y1="18" x2="50" y2="62" stroke-dasharray="2 2" />
+                </svg>
+                <span class="portrait-tag">B&amp;W STREET PORTRAIT &bull; TORINO</span>
+              </div>
+              <img 
+                src="images/speaker/minakov-bw.jpg" 
+                alt="Портрет профессора Михаила Минакова в Турине" 
+                class="speaker-img" 
+                loading="lazy"
+                onload="this.classList.add('loaded')"
+                onerror="this.style.display='none'"
+              >
+            </div>
+          </div>
+
+          <!-- Right Column: Refined Typography & Bio -->
+          <div class="speaker-bio-col">
+            <div class="speaker-tag-bar">
+              <span class="mono-meta">OTIUM ACADEMY &bull; KENNAN INSTITUTE</span>
+            </div>
+
+            <div class="speaker-title-group">
+              <h2 class="speaker-name">Михаил Минаков</h2>
+              <span class="speaker-role">Prof. Mikhail Minakov &bull; Философ, теоретик модерна</span>
+            </div>
+
+            <!-- Political Time Pull Quote -->
+            <div class="speaker-pullquote">
+              <p class="speaker-quote-text">
+                &laquo;Высшая форма политического суверенитета сегодня — это бережность к времени собственной жизни: 
+                способность выйти из навязанного ритма институтов и вернуть себе глубину созерцания.&raquo;
+              </p>
+            </div>
+
+            <p class="speaker-bio-p">
+              Ведущий исследователь европейского модерна, политической темпоральности и феноменологии власти. 
+              Основатель интеллектуальных программ Otium Academy. В рамках Туринского семинара разработал 
+              трехмерную модель политического пространства, объединяющую институциональные оси, идеологические нарративы 
+              и хронополитический контроль, а также провел философскую деконструкцию Савойского мифа и биополитики Чезаре Ломброзо.
+            </p>
+
+            <div class="speaker-meta-pills">
+              <span class="theme-pill">Хронополитика</span>
+              <span class="theme-pill">Феноменология власти</span>
+              <span class="theme-pill">История европейского модерна</span>
+              <span class="theme-pill">Otium Academy</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CHAPTER 1: Лаборатория мысли (NH Santo Stefano)
+         ==================================================================== -->
+    <section id="chapter-1" class="chapter-section" data-chapter="chapter-1">
+      <span class="chapter-watermark" aria-hidden="true">01</span>
+
+      <div class="container">
+        <header class="chapter-header reveal-on-scroll">
+          <div class="section-label">
+            <span class="mono-meta">ГЛАВА 01 &bull; CAPITOLO 01</span>
+          </div>
+
+          <div class="chapter-badge-bar">
+            <span class="chapter-venue">NH Santo Stefano &bull; Вводная лекция</span>
+            <span class="chapter-date">Пятница, 11 сентября 2026 &bull; 18:30–21:30</span>
+          </div>
+
+          <div class="chapter-title-wrapper">
+            <div class="chapter-title-group">
+              <h2 class="chapter-title-ru">Лаборатория мысли</h2>
+              <span class="chapter-title-it">Il Laboratorio del Pensiero</span>
+            </div>
+            <button class="btn-chapter-gallery" data-chapter-id="chapter-1" aria-label="Смотреть всю серию фотографий главы 01 (15 фото)">
+              <span class="btn-gallery-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21 15 16 10 5 21"/>
+                </svg>
+              </span>
+              <span class="btn-gallery-text">Вся серия (15 фото) &rarr;</span>
+            </button>
+          </div>
+
+          <div class="chapter-theme-pills">
+            <span class="theme-pill">Трехмерная система политики</span>
+            <span class="theme-pill">Время как ресурс власти</span>
+            <span class="theme-pill">Феноменология модерна</span>
+          </div>
+        </header>
+
+        <!-- Lead Quote Block -->
+        <div class="chapter-quote-box reveal-on-scroll stagger-1">
+          <p class="quote-text-ru">&laquo;Власть всегда структурирует не только пространство, но прежде всего темпоральность: тот, кто владеет чужим временем, правит миром.&raquo;</p>
+          <div class="quote-author">Михаил Минаков</div>
+        </div>
+
+        <!-- Curatorial Context Text (Streamlined) -->
+        <div class="chapter-context-streamlined reveal-on-scroll stagger-2">
+          <p>
+            В первый вечер в камерном пространстве <strong>NH Santo Stefano</strong> семинар открылся концептуализацией трехмерного политического пространства: взаимного сопряжения институциональных структур, идеологических нарративов и хронополитики. Время перестает быть нейтральной ньютоновской шкалой — оно обнажается как самый дефицитный и отчуждаемый ресурс человеческой жизни, за контроль над которым разворачиваются главные битвы современности.
+          </p>
+        </div>
+
+        <!-- Editorial Showcase Gallery Container: Chapter 1 -->
+        <div class="gallery-section-bar">
+          <div class="gallery-bar-left">
+            <span class="mono-meta">ИЗБРАННАЯ ЭКСПОЗИЦИЯ &bull; 2 ИЗ 15 КАДРОВ</span>
+          </div>
+          <button class="btn-view-all-pill" data-chapter-id="chapter-1" aria-label="Открыть полную серию главы 01">
+            <span>Вся серия (15 фото) &rarr;</span>
+          </button>
+        </div>
+        <div class="gallery-grid chapter-1-grid" id="gallery-chapter-1" data-folder="images/seminar/" data-prefix="seminar-" data-count="15">
+          <!-- Top 2 editorial items rendered dynamically by js/app.js from content.json -->
+        </div>
+
+        <div class="gallery-footer-action reveal-on-scroll">
+          <button class="btn-gallery-browse-all" data-chapter-id="chapter-1">
+            <span class="browse-meta">АРХИВ ГЛАВЫ 01</span>
+            <span class="browse-title">Смотреть всю серию из 15 кадров в высоком разрешении &rarr;</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CHAPTER 2: Трон и Миф (Palazzo Carignano / Risorgimento)
+         ==================================================================== -->
+    <section id="chapter-2" class="chapter-section" data-chapter="chapter-2">
+      <span class="chapter-watermark" aria-hidden="true">02</span>
+
+      <div class="container">
+        <header class="chapter-header reveal-on-scroll">
+          <div class="section-label">
+            <span class="mono-meta">ГЛАВА 02 &bull; CAPITOLO 02</span>
+          </div>
+
+          <div class="chapter-badge-bar">
+            <span class="chapter-venue">Palazzo Carignano &bull; Museo del Risorgimento</span>
+            <span class="chapter-date">Суббота, 12 сентября 2026 &bull; 10:00–13:30</span>
+          </div>
+
+          <div class="chapter-title-wrapper">
+            <div class="chapter-title-group">
+              <h2 class="chapter-title-ru">Трон и Миф</h2>
+              <span class="chapter-title-it">Il Trono e il Mito</span>
+            </div>
+            <button class="btn-chapter-gallery" data-chapter-id="chapter-2" aria-label="Смотреть всю серию фотографий главы 02 (39 фото)">
+              <span class="btn-gallery-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21 15 16 10 5 21"/>
+                </svg>
+              </span>
+              <span class="btn-gallery-text">Вся серия (39 фото) &rarr;</span>
+            </button>
+          </div>
+
+          <div class="chapter-theme-pills">
+            <span class="theme-pill">Савойская династия</span>
+            <span class="theme-pill">Кавур vs Гарибальди</span>
+            <span class="theme-pill">Эфемерный парламент 1861</span>
+            <span class="theme-pill">Изобретение нации</span>
+          </div>
+        </header>
+
+        <!-- Lead Quote Block -->
+        <div class="chapter-quote-box reveal-on-scroll stagger-1">
+          <p class="quote-text-ru">&laquo;Государство нуждается в мифе о собственном рождении острее, чем в законах: в залах Кариньяно итальянское единство ковалось как драматический компромисс между прагматизмом Кавура и романтической яростью Гарибальди.&raquo;</p>
+          <p class="quote-text-it">&ldquo;Lo Stato ha bisogno del mito della propria nascita più che delle leggi: nelle aule di Carignano l'unità fu forgiata come compromesso drammatico tra il pragmatismo di Cavour e la furia romantica di Garibaldi.&rdquo;</p>
+          <div class="quote-author">Михаил Минаков</div>
+        </div>
+
+        <!-- Curatorial Context Text -->
+        <div class="chapter-context-layout reveal-on-scroll stagger-2">
+          <div class="context-primary-text">
+            <p>
+              Субботнее утро началось в <strong>Палаццо Кариньяно</strong> — монументальном шедевре барочной кирпичной архитектуры Гварино Гварини. 
+              Именно здесь заседал первый Субальпийский парламент и был возведен грандиозный временный зал заседаний 1861 года, 
+              чей недолгий век стал символом хрупкости учредительной власти.
+            </p>
+            <p>
+              Лекция развернулась вокруг фундаментального антагонизма: холодный бюрократический прагматизм графа Камилло Кавура 
+              против народно-освободительного романтизма Джузеппе Гарибальди. Участники исследовали, как региональная династическая экспансия 
+              Савойского дома была перекодирована в общенациональный сакральный миф Рисорджименто.
+            </p>
+          </div>
+          <div class="context-secondary-panel">
+            <p class="context-it-translation">
+              La mattinata di sabato a Palazzo Carignano ha sviscerato l'antagonismo tra il freddo calcolo burocratico di Cavour 
+              e il fervore romantico di Garibaldi, mostrando come l'espansione sabauda si trasformò nel mito fondativo nazionale.
+            </p>
+          </div>
+        </div>
+
+        <!-- Editorial Showcase Gallery Container: Chapter 2 -->
+        <div class="gallery-section-bar">
+          <div class="gallery-bar-left">
+            <span class="mono-meta">ИЗБРАННАЯ ЭКСПОЗИЦИЯ &bull; 4 ИЗ 39 КАДРОВ</span>
+          </div>
+          <button class="btn-view-all-pill" data-chapter-id="chapter-2" aria-label="Открыть полную серию главы 02">
+            <span>Вся серия (39 фото) &rarr;</span>
+          </button>
+        </div>
+        <div class="gallery-grid chapter-2-grid" id="gallery-chapter-2" data-folder="images/risorgimento/" data-prefix="risorgimento-" data-count="39">
+          <!-- Top 4 editorial items rendered dynamically by js/app.js from content.json -->
+        </div>
+
+        <div class="gallery-footer-action reveal-on-scroll">
+          <button class="btn-gallery-browse-all" data-chapter-id="chapter-2">
+            <span class="browse-meta">АРХИВ ГЛАВЫ 02</span>
+            <span class="browse-title">Смотреть всю серию из 39 кадров в высоком разрешении &rarr;</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CHAPTER 3: В когтях науки (Museo Cesare Lombroso)
+         ==================================================================== -->
+    <section id="chapter-3" class="chapter-section" data-chapter="chapter-3">
+      <span class="chapter-watermark" aria-hidden="true">03</span>
+
+      <div class="container">
+        <header class="chapter-header reveal-on-scroll">
+          <div class="section-label">
+            <span class="mono-meta">ГЛАВА 03 &bull; CAPITOLO 03</span>
+          </div>
+
+          <div class="chapter-badge-bar">
+            <span class="chapter-venue">Museo di Antropologia Criminale «Cesare Lombroso»</span>
+            <span class="chapter-date">Суббота, 12 сентября 2026 &bull; 15:00–17:30</span>
+          </div>
+
+          <div class="chapter-title-wrapper">
+            <div class="chapter-title-group">
+              <h2 class="chapter-title-ru">В когтях науки</h2>
+              <span class="chapter-title-it">Nelle Grinfie della Scienza</span>
+            </div>
+            <button class="btn-chapter-gallery" data-chapter-id="chapter-3" aria-label="Смотреть всю серию фотографий главы 03 (9 фото)">
+              <span class="btn-gallery-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21 15 16 10 5 21"/>
+                </svg>
+              </span>
+              <span class="btn-gallery-text">Вся серия (9 фото) &rarr;</span>
+            </button>
+          </div>
+
+          <div class="chapter-theme-pills">
+            <span class="theme-pill">Биополитика и дисциплина</span>
+            <span class="theme-pill">Чезаре Ломброзо</span>
+            <span class="theme-pill">От штангенциркуля к Big Data</span>
+            <span class="theme-pill">Цифровой надзор XXI века</span>
+          </div>
+        </header>
+
+        <!-- Lead Quote Block -->
+        <div class="chapter-quote-box reveal-on-scroll stagger-1">
+          <p class="quote-text-ru">&laquo;Ломброзо пытался измерить штангенциркулем криминальную душу человека, но создал не криминологию, а анатомический фундамент современного надзора: сегодня алгоритмы распознавания лиц делают ровно то же самое, что краниометр XIX века.&raquo;</p>
+          <p class="quote-text-it">&ldquo;Lombroso tentò di misurare l'anima criminale con un calibro, ma finì per fondare l'anatomia della sorveglianza moderna: oggi gli algoritmi di riconoscimento facciale replicano esattamente il craniometro ottocentesco.&rdquo;</p>
+          <div class="quote-author">Михаил Минаков</div>
+        </div>
+
+        <!-- Curatorial Context Text -->
+        <div class="chapter-context-layout reveal-on-scroll stagger-2">
+          <div class="context-primary-text">
+            <p>
+              Дневная экспедиция в <strong>Музей криминальной антропологии Чезаре Ломброзо</strong> стала ключевым этическим узлом семинара. 
+              Стеклянные витрины с черепами, посмертными масками и причудливым творчеством заключенных послужили отправной точкой 
+              для глубокого осмысления биополитики Мишеля Фуко.
+            </p>
+            <p>
+              Позитивистская наука XIX века, убежденная в собственном гуманизме, создала жесткие практики измерения, каталогизации 
+              и стигматизации человеческого тела. В дискуссии была прослежена прямая генеалогия: от механических краниометров 
+              и измерений ушных раковин — к современным биометрическим базам данных, камерам с искусственным интеллектом 
+              и предиктивному цифровому контролю.
+            </p>
+          </div>
+          <div class="context-secondary-panel">
+            <p class="context-it-translation">
+              La visita al Museo Cesare Lombroso ha costituito il nodo etico del percorso. Teche di crani e calchi hanno introdotto la critica 
+              foucaultiana della biopolitica: dai calibri ottocenteschi all'odierna sorveglianza biometrica e predittiva.
+            </p>
+          </div>
+        </div>
+
+        <!-- Editorial Showcase Gallery Container: Chapter 3 -->
+        <div class="gallery-section-bar">
+          <div class="gallery-bar-left">
+            <span class="mono-meta">ИЗБРАННАЯ ЭКСПОЗИЦИЯ &bull; 3 ИЗ 9 КАДРОВ</span>
+          </div>
+          <button class="btn-view-all-pill" data-chapter-id="chapter-3" aria-label="Открыть полную серию главы 03">
+            <span>Вся серия (9 фото) &rarr;</span>
+          </button>
+        </div>
+        <div class="gallery-grid chapter-3-grid" id="gallery-chapter-3" data-folder="images/lombroso/" data-prefix="lombroso-" data-count="9">
+          <!-- Top 3 editorial items rendered dynamically by js/app.js from content.json -->
+        </div>
+
+        <div class="gallery-footer-action reveal-on-scroll">
+          <button class="btn-gallery-browse-all" data-chapter-id="chapter-3">
+            <span class="browse-meta">АРХИВ ГЛАВЫ 03</span>
+            <span class="browse-title">Смотреть всю серию из 9 кадров в высоком разрешении &rarr;</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CHAPTER 4: Геометрия города (Туринские аркады, Piazza San Carlo)
+         ==================================================================== -->
+    <section id="chapter-4" class="chapter-section" data-chapter="chapter-4">
+      <span class="chapter-watermark" aria-hidden="true">04</span>
+
+      <div class="container">
+        <header class="chapter-header reveal-on-scroll">
+          <div class="section-label">
+            <span class="mono-meta">ГЛАВА 04 &bull; CAPITOLO 04</span>
+          </div>
+
+          <div class="chapter-badge-bar">
+            <span class="chapter-venue">Туринские аркады &bull; Piazza San Carlo &bull; Via Po</span>
+            <span class="chapter-date">Суббота, 12 сентября 2026 &bull; 18:00–21:30</span>
+          </div>
+
+          <div class="chapter-title-wrapper">
+            <div class="chapter-title-group">
+              <h2 class="chapter-title-ru">Геометрия города</h2>
+              <span class="chapter-title-it">La Geometria della Città</span>
+            </div>
+            <button class="btn-chapter-gallery" data-chapter-id="chapter-4" aria-label="Смотреть всю серию фотографий главы 04 (31 фото)">
+              <span class="btn-gallery-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21 15 16 10 5 21"/>
+                </svg>
+              </span>
+              <span class="btn-gallery-text">Вся серия (31 фото) &rarr;</span>
+            </button>
+          </div>
+
+          <div class="chapter-theme-pills">
+            <span class="theme-pill">Туринские аркады (18 км)</span>
+            <span class="theme-pill">Регулярный город Савойев</span>
+            <span class="theme-pill">Метафизика теней (Ницше и де Кирико)</span>
+            <span class="theme-pill">Бережность к времени жизни</span>
+          </div>
+        </header>
+
+        <!-- Lead Quote Block -->
+        <div class="chapter-quote-box reveal-on-scroll stagger-1">
+          <p class="quote-text-ru">&laquo;Туринские 18 километров аркад — это не просто защита короля от дождя. Это материализованный трактат о дисциплине шага. Но финальный урок философии — вернуть себе право не спешить: высшая форма политического суверенитета сегодня — это бережность к времени собственной жизни.&raquo;</p>
+          <p class="quote-text-it">&ldquo;I 18 chilometri di portici torinesi non sono solo un riparo dalla pioggia: sono un trattato in pietra sulla disciplina del passo. La lezione finale della filosofia è riappropriarsi del diritto alla lentezza: la più alta forma di sovranità politica contemporanea risiede nella cura del tempo della propria vita.&rdquo;</p>
+          <div class="quote-author">Михаил Минаков</div>
+        </div>
+
+        <!-- Curatorial Context Text -->
+        <div class="chapter-context-layout reveal-on-scroll stagger-2">
+          <div class="context-primary-text">
+            <p>
+              Субботний маршрут завершился философским дрейфом под бесконечными туринскими портиками. 
+              Турин проектировался герцогскими инженерами как шахматная доска абсолютистского государства: 
+              регулярная сетка улиц, единообразие карнизов и перспективные оси приучали подданных к государственному порядку.
+            </p>
+            <p>
+              Именно в этих декорациях Ницше пережил свой трагический экстаз, а Джорджо де Кирико открыл меланхолию теней. 
+              Пройдя сквозь идеальную симметрию Пьяцца Сан-Карло к гранитным аркам реки По, участники сформулировали главное кредо семинара: 
+              городская структура подчиняет тело, но внутренний суверенитет мысли рождается в способности замедлиться 
+              и охранять время своей жизни от всепоглощающей спешки институтов.
+            </p>
+          </div>
+          <div class="context-secondary-panel">
+            <p class="context-it-translation">
+              La giornata si è conclusa con una deriva filosofica sotto i portici monumentali. Raggiungendo i Murazzi del Po, 
+              il gruppo ha enucleato il principio etico: l'autonomia dello spirito germoglia nella cura intransigente del proprio tempo vitale.
+            </p>
+          </div>
+        </div>
+
+        <!-- Editorial Showcase Gallery Container: Chapter 4 -->
+        <div class="gallery-section-bar">
+          <div class="gallery-bar-left">
+            <span class="mono-meta">ИЗБРАННАЯ ЭКСПОЗИЦИЯ &bull; 6 ИЗ 31 КАДРА</span>
+          </div>
+          <button class="btn-view-all-pill" data-chapter-id="chapter-4" aria-label="Открыть полную серию главы 04">
+            <span>Вся серия (31 фото) &rarr;</span>
+          </button>
+        </div>
+        <div class="gallery-grid chapter-4-grid" id="gallery-chapter-4" data-folder="images/city/" data-prefix="city-" data-count="31">
+          <!-- Top 6 editorial items rendered dynamically by js/app.js from content.json -->
+        </div>
+
+        <div class="gallery-footer-action reveal-on-scroll">
+          <button class="btn-gallery-browse-all" data-chapter-id="chapter-4">
+            <span class="browse-meta">АРХИВ ГЛАВЫ 04</span>
+            <span class="browse-title">Смотреть всю серию из 31 кадра в высоком разрешении &rarr;</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SUNDAY EPILOGUE: Воскресный эпилог (Бережность к времени жизни)
+         ==================================================================== -->
+    <section id="epilogue" class="epilogue-section">
+      <div class="container">
+        <!-- Disclaimer Badge -->
+        <div class="epilogue-disclaimer-banner reveal-on-scroll">
+          <span class="status-indicator"></span>
+          <span>Академический синтез без фотофиксации &bull; Manifesto Filosofico Domenicale</span>
+        </div>
+
+        <header class="epilogue-header reveal-on-scroll">
+          <div class="section-label">
+            <span class="mono-meta">ВОСКРЕСНЫЙ ЭПИЛОГ &bull; EPILOGO DOMENICALE</span>
+          </div>
+
+          <div class="chapter-badge-bar">
+            <span class="chapter-venue">Камерный зал &bull; Монастырский дворик</span>
+            <span class="chapter-date">Воскресенье, 13 сентября 2026 &bull; 10:30–14:00</span>
+          </div>
+
+          <div class="chapter-title-wrapper">
+            <h2 class="epilogue-title-ru">Синтез: Бережность к времени жизни</h2>
+            <span class="epilogue-title-it">Sintesi e Cura del Tempo della Vita</span>
+          </div>
+        </header>
+
+        <!-- Lead Quote Block -->
+        <div class="chapter-quote-box reveal-on-scroll stagger-1">
+          <p class="quote-text-ru">&laquo;Философия не дает утешения, но она возвращает масштаб: осознать границы политических мифов, распутать сети биополитического надзора и отстоять ценность каждого прожитого часа.&raquo;</p>
+          <p class="quote-text-it">&ldquo;La filosofia non offre consolazioni, ma restituisce l'autentica misura dell'essere: smascherare i miti politici, eludere le reti della biopolitica e preservare il valore irripetibile di ogni ora vissuta.&rdquo;</p>
+          <div class="quote-author">Михаил Минаков</div>
+        </div>
+
+        <div class="chapter-context-layout reveal-on-scroll stagger-2">
+          <div class="context-primary-text">
+            <p>
+              Заключительный день семинара был полностью посвящен теоретическому синтезу. 
+              Оставив позади музейные экспозиции и городскую суету, участники сосредоточились на вопросе: 
+              как философское понимание власти и пространства способно трансформировать личную этику в XXI веке?
+            </p>
+            <p>
+              Воскресный диалог развернулся вокруг концепта «Бережности к времени жизни» (<em>Cura del tempo vitale</em>) 
+              как главного акта этического нонконформизма в эпоху цифровой коммодификации времени.
+            </p>
+          </div>
+          <div class="context-secondary-panel">
+            <p class="context-it-translation">
+              La giornata conclusiva è stata interamente dedicata alla sintesi teoretica. Il dibattito ha posto al centro il concetto di 
+              'Cura del tempo della vita' come atto fondamentale di non-conformismo e sovranità intellettuale.
+            </p>
+          </div>
+        </div>
+
+        <!-- Theses Grid -->
+        <div class="theses-grid">
+          <!-- Thesis 1 -->
+          <div class="thesis-card reveal-on-scroll stagger-1">
+            <div class="thesis-top-row">
+              <span class="thesis-num">I</span>
+              <span class="thesis-badge">ТЕЗИС / TESI</span>
+            </div>
+            <div>
+              <h3 class="thesis-title-ru">Хронополитический суверенитет</h3>
+              <div class="thesis-title-it">Sovranità Cronopolitica</div>
+              <p class="thesis-desc">
+                Сопротивление ускорению: институты капитала и государства стремятся колонизировать всё личное время субъекта. 
+                Восстановление суверенного темпа — первый шаг политической эмансипации.
+              </p>
+            </div>
+          </div>
+
+          <!-- Thesis 2 -->
+          <div class="thesis-card reveal-on-scroll stagger-2">
+            <div class="thesis-top-row">
+              <span class="thesis-num">II</span>
+              <span class="thesis-badge">ТЕЗИС / TESI</span>
+            </div>
+            <div>
+              <h3 class="thesis-title-ru">Демифологизация учредительного нарратива</h3>
+              <div class="thesis-title-it">Smantellamento del Mito Fondativo</div>
+              <p class="thesis-desc">
+                Критическая дистанция по отношению к любым национальным и государственным мифам (от Савойского дома до современных конструктов). 
+                Музейное прошлое учит распознавать механизмы манипуляции.
+              </p>
+            </div>
+          </div>
+
+          <!-- Thesis 3 -->
+          <div class="thesis-card reveal-on-scroll stagger-1">
+            <div class="thesis-top-row">
+              <span class="thesis-num">III</span>
+              <span class="thesis-badge">ТЕЗИС / TESI</span>
+            </div>
+            <div>
+              <h3 class="thesis-title-ru">Неприкосновенность тела перед лицом надзора</h3>
+              <div class="thesis-title-it">Inviolabilità del Corpo di Fronte alla Sorveglianza</div>
+              <p class="thesis-desc">
+                Отказ от позитивистской редукции человека к измеримым показателям. 
+                Критическое осмысление биометрических и нейросетевых систем надзора как прямого продолжения криминологии Ломброзо.
+              </p>
+            </div>
+          </div>
+
+          <!-- Thesis 4 -->
+          <div class="thesis-card reveal-on-scroll stagger-2">
+            <div class="thesis-top-row">
+              <span class="thesis-num">IV</span>
+              <span class="thesis-badge">ТЕЗИС / TESI</span>
+            </div>
+            <div>
+              <h3 class="thesis-title-ru">Бережность к времени жизни как этический долг</h3>
+              <div class="thesis-title-it">La Cura del Tempo come Dovere Etico</div>
+              <p class="thesis-desc">
+                Финальный императив: глубокое мышление требует пауз, тишины и неспешного диалога. 
+                Архитектура и философия в Турине напомнили, что долговечное создается только в согласии со временем.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Documentation & Archives / Footer
+         ==================================================================== -->
+    <footer id="archives" class="site-footer">
+      <div class="container">
+        <div class="footer-top-grid">
+          <!-- Left Column: Manifesto & Note -->
+          <div class="footer-manifesto reveal-on-scroll">
+            <div>
+              <div class="section-label">
+                <span class="mono-meta">РЕПОЗИТОРИЙ &bull; ARCHIVIO ISTITUZIONALE</span>
+              </div>
+              <h2 class="footer-title">Материалы семинара</h2>
+              <p class="footer-desc">
+                Оригинальные материалы и слайды лекций профессора Михаила Минакова (Otium Academy), 
+                а также полный фотоархив всех сессий и маршрутов семинара в высоком разрешении доступны 
+                для участников и исследователей в открытом репозитории на Google Диске.
+              </p>
+            </div>
+
+            <!-- Organizer Credential Block: Otium Academy (Interactive) -->
+            <a href="https://otium.academy/" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="footer-organizer-block" 
+               aria-label="Перейти на официальный сайт Otium Academy (откроется в новой вкладке)">
+              <div class="footer-org-logo-wrap">
+                <img src="images/logo/otium-academy.png" alt="Otium Academy" class="footer-org-logo" width="46" height="46">
+              </div>
+              <div class="footer-org-info">
+                <span class="footer-org-badge">ОРГАНИЗАТОР СЕМИНАРА &bull; PROMOTORE</span>
+                <div class="footer-org-name-row">
+                  <span class="footer-org-name">Otium Academy</span>
+                  <svg class="footer-org-external-icon" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+                    <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <p class="footer-org-desc">Интеллектуальные программы, исследование европейского модерна и феноменология политического времени.</p>
+              </div>
+            </a>
+
+            <div class="footer-quote-wrap">
+              <p class="footer-quote">
+                &ldquo;Torino è una città costruita sulla geometria dei sogni e sulla resistenza del granito.&rdquo;
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Prominent Interactive Cards for External Google Drive Links -->
+          <div class="footer-archives-panel reveal-on-scroll stagger-2">
+            <div class="archive-panel-header">
+              <span class="archive-panel-title">Внешние репозитории &bull; Google Drive</span>
+            </div>
+
+            <div class="drive-actions-group">
+              <!-- Drive Link 1: Photo Archive -->
+              <a href="https://drive.google.com/drive/folders/1yfmA5Rx9lK0zm7QllfanCQHRsIFDuuhb?usp=sharing" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn-archive-outline archive-card-featured" 
+                 aria-label="Открыть полный фотоархив в высоком качестве на Google Диске">
+                <div class="btn-content">
+                  <div class="btn-tag-row">
+                    <span class="btn-platform-badge">GOOGLE DRIVE</span>
+                    <span class="btn-format-tag">ФОТОАРХИВ ВЫСОКОГО РАЗРЕШЕНИЯ</span>
+                  </div>
+                  <h3 class="btn-label">ПОЛНЫЙ ФОТОАРХИВ В ВЫСОКОМ КАЧЕСТВЕ</h3>
+                  <p class="btn-subtext">Полная серия кадров семинара, музеев и городских пространств Турина на Google Диске.</p>
+                </div>
+                <div class="btn-icon-wrapper" aria-hidden="true">
+                  <svg class="btn-icon" viewBox="0 0 24 24" width="20" height="20">
+                    <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </a>
+
+              <!-- Drive Link 2: Lecture Materials & Slides -->
+              <a href="https://drive.google.com/file/d/1GfWZsDVVftvDEascd1jSE43dEGyrNP16/view?usp=sharing" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn-archive-outline archive-card-featured" 
+                 aria-label="Открыть материалы и слайды курса (PDF) на Google Диске">
+                <div class="btn-content">
+                  <div class="btn-tag-row">
+                    <span class="btn-platform-badge">GOOGLE DRIVE</span>
+                    <span class="btn-format-tag">ОРИГИНАЛЬНАЯ ПРЕЗЕНТАЦИЯ &bull; PDF</span>
+                  </div>
+                  <h3 class="btn-label">МАТЕРИАЛЫ И СЛАЙДЫ КУРСА (PDF)</h3>
+                  <p class="btn-subtext">Оригинальная презентация лекций профессора Михаила Минакова (Otium Academy).</p>
+                </div>
+                <div class="btn-icon-wrapper" aria-hidden="true">
+                  <svg class="btn-icon" viewBox="0 0 24 24" width="20" height="20">
+                    <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Colophon / Bottom Bar -->
+        <div class="footer-bottom-bar">
+          <div class="footer-bottom-colophon">
+            <img src="images/logo/otium-academy.png" alt="Otium Academy" class="footer-colophon-logo" width="22" height="22">
+            <span>&copy; 2026 Туринский семинар Михаила Минакова &bull; Otium Academy. Все права сохранены.</span>
+          </div>
+
+          <div>
+            <span>Torino, Italia &bull; 45.0703° N, 7.6869° E</span>
+          </div>
+
+          <div>
+            <a href="#hero" class="back-to-top" aria-label="Вернуться к началу страницы">
+              <span>К началу</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 19V5M5 12l7-7 7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- ======================================================================
+       Fullscreen Exhibition Lightbox & Carousel Overlay (Step 2)
+       ====================================================================== -->
+  <div class="gallery-lightbox-modal" id="galleryLightbox" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-wrapper">
+      <!-- Sleek Darkroom Topbar -->
+      <div class="lightbox-topbar">
+        <div class="lightbox-chapter-meta">
+          <span class="lightbox-chapter-tag" id="lightboxChapterTag">ГЛАВА 01</span>
+        </div>
+        <!-- Clean Image Counter: 01 / 15 -->
+        <div class="lightbox-counter-badge" id="lightboxCounter" aria-label="Счетчик фотографий">01 / 15</div>
+        <button class="lightbox-close-btn" id="lightboxClose" aria-label="Закрыть полноэкранный просмотр (Escape)">
+          <span class="close-label">ESC</span>
+          <span class="close-x" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <!-- Lightbox Main Body (Pure Photographic Stage) -->
+      <div class="lightbox-body">
+        <!-- Interactive Viewport with Navigation & Swipe Support -->
+        <div class="lightbox-viewport" id="lightboxViewport" tabindex="0">
+          <button class="lightbox-nav-btn lightbox-prev" id="lightboxPrev" aria-label="Предыдущая фотография (Стрелка влево)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 18l-6-6 6-6"/>
+            </svg>
+          </button>
+
+          <div class="lightbox-stage" id="lightboxStage">
+            <img src="" alt="Фотография семинара" class="lightbox-image-target" id="lightboxImg">
+            <div class="lightbox-svg-target" id="lightboxSvgWrap"></div>
+          </div>
+
+          <button class="lightbox-nav-btn lightbox-next" id="lightboxNext" aria-label="Следующая фотография (Стрелка вправо)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Lightbox Bottom Navigation Bar -->
+      <div class="lightbox-bottom-bar">
+        <div class="lightbox-hint">
+          <span class="mono-meta">
+            &larr; &rarr; СТРЕЛКИ / СВАЙП &bull; ESC ЗАКРЫТЬ
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Application -->
+  <script src="js/app.js"></script>
+</body>
+</html>
